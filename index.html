@@ -61,7 +61,7 @@
           </ul>
         </div>
         <div class="navbar-end space-x-5">
-          <i class="fa-solid fa-magnifying-glass text-[#89898B] hover:text-[#FF4240]"></i>
+          <i class="fa-solid fa-magnifying-glass hidden md:flex text-[#89898B] hover:text-[#FF4240]"></i>
           <a class="btn bg-[#FF4240] text-xl text-white hover:text-[#FF4240] font-bold">Get Ticket</a>
         </div>
       </div>
@@ -164,6 +164,7 @@
         </div>
       </div>
     </section>
+
     <!-- Programs section -->
     <section class="mb-32 px-6 lg:px-0">
       <!-- Title section -->
@@ -199,6 +200,7 @@
         </div>
       </div>
     </section>
+
     <!-- Products section -->
     <section class="mb-32 px-6 lg:px-0">
       <!-- Title section -->
@@ -553,8 +555,7 @@
               <label class="text-xl font-bold" for="">Message</label>
               <br>
               <textarea class="bg-[#13131808] text-[#1313184D] border-none outline-none rounded-xl p-5 w-full" rows="13"
-                type="text" name="" id=""
-                placeholder="Write your message"></textarea>
+                type="text" name="" id="" placeholder="Write your message"></textarea>
             </div>
             <div class="col-span-1 lg:col-span-2">
               <button class="btn w-full btn-error text-xl font-bold text-white bg-[#FF4240]">Send Message</button>
@@ -562,12 +563,65 @@
           </div>
         </div>
       </div>
+      <!-- Social media part -->
+      <div class="flex flex-col justify-center items-center mt-12 py-9 space-y-7">
+        <h3 class="text-2xl font-extrabold">Social Media</h3>
+        <div class="flex flex-row justify-center items-center space-x-8">
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+      </div>
     </section>
   </main>
 
   <!-- Footer part -->
-  <footer>
-
+  <footer class="p-9 bg-black lg:px-32 lg:py-24">
+    <div class="grid grid-cols-1 gap-10 lg:grid-cols-4 lg:gap-36">
+      <div class="space-y-4">
+        <h5 class="text-[28px] text-white font-extrabold">Get In Touch</h5>
+        <p class="text-[#FFFFFF99]">Dit amet consectetur. Condimentum adipiscing aliquam turpis placerat dolor. Purus
+          urna in sit nullam proin. </p>
+        <div class="flex items-center flex-row space-x-4">
+          <i class="fa-regular fa-message text-[#FF4240]"></i>
+          <p class="text-[#FFFFFFCC]">hockeys@support.com</p>
+        </div>
+        <div class="flex items-center flex-row space-x-4">
+          <i class="fa-solid fa-phone text-[#FF4240]"></i>
+          <p class="text-[#FFFFFFCC]">(+62) 123-321-543</p>
+        </div>
+      </div>
+      <div class="space-y-7">
+        <h5 class="text-lg font-bold text-white">Support</h5>
+        <ul class="space-y-5">
+          <li><a class="text-[#FFFFFF99] font-medium" href="">Help Center</a></li>
+          <li><a class="text-[#FFFFFF99] font-medium" href="">Contact Us</a></li>
+          <li><a class="text-[#FFFFFF99] font-medium" href="">Ticket Support</a></li>
+          <li><a class="text-[#FFFFFF99] font-medium" href="">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="space-y-7">
+        <h5 class="text-lg font-bold text-white">Services</h5>
+        <ul class="space-y-5">
+          <li><a class="text-[#FFFFFF99] font-medium" href="">Academy</a></li>
+          <li><a class="text-[#FFFFFF99] font-medium" href="">Hockeys for Adult</a></li>
+          <li><a class="text-[#FFFFFF99] font-medium" href="">Hockeys for kids</a></li>
+          <li><a class="text-[#FFFFFF99] font-medium" href="">Private Lesson</a></li>
+          <li><a class="text-[#FFFFFF99] font-medium" href="">Group Lesson</a></li>
+        </ul>
+      </div>
+      <div class="space-y-7">
+        <h5 class="text-lg font-bold text-white">Company</h5>
+        <ul class="space-y-5">
+          <li><a class="text-[#FFFFFF99] font-medium" href="">About us</a></li>
+          <li><a class="text-[#FFFFFF99] font-medium" href="">Leadership</a></li>
+          <li><a class="text-[#FFFFFF99] font-medium" href="">Careers</a></li>
+          <li><a class="text-[#FFFFFF99] font-medium" href="">News & Article</a></li>
+          <li><a class="text-[#FFFFFF99] font-medium" href="">Legal Notice</a></li>
+        </ul>
+      </div>
+    </div>
   </footer>
 </body>
 
